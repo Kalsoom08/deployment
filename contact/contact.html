@@ -4,8 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form</title>
-    <header>
+   
     <style>
+        
+        textarea[name="Comments"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #000000;;
+            box-sizing:border-box;
+  height: 50%;}
+  
+
 form {
             width: 50%;
             margin: 0 auto;
@@ -29,11 +39,12 @@ form {
             border: 1px solid #000000;;
             box-sizing:border-box;
         }
-</style></header>
+  
+</style>
 </head>
-<body bgcolor="#EFEBE9">
+<body bgcolor="#EFEBE9"> <header>
     <a href="../index.html">Home</a>
- <footer>
+ 
     <form>
         <fieldset>
             <legend>Get In Touch</legend>
@@ -49,10 +60,12 @@ form {
                 <option value="+86">China (+86)</option>
             </select>
             <input type="text" id="phoneNumber" name="phoneNumber">
-           
+           Message:<br> <textarea name="Comments" cols="20" rows="4">Enter Your Message</textarea>
             <br><br>
-            <input type="submit" value="Send">
-        </fieldset>
+            <input type="submit" value="Send"></header>
+        </fieldset><footer>
+        <h1>Location</h1>
+        <iframe src="https://shorturl.at/cdxQW" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" align="center"></iframe>
     </form></footer>
 </body>
 </html>
