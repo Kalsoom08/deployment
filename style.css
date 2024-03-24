@@ -1,0 +1,65 @@
+    /* Index page Styling */
+body{
+background-color: #d7ccc7;
+}
+table,tr,td{
+    border: 1px solid;
+    border-collapse:collapse;
+    width: 25%;
+}
+th {
+background-color: antiquewhite;
+border: 2px solid black;
+width: 20%;
+}
+.Intro{
+    color:rgb(53, 107, 115);
+}
+
+/* Project page Styling */
+.project{
+    body{
+        background-color: #d7ccc7;
+        }
+    #a{
+        color:rgb(150, 49, 49);
+    }
+    
+/* contact page styling */
+#fieldset {
+    margin: 0 auto;
+    width: 50%;
+    background-color: #a8c2a8;
+}
+
+#textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    height: 50%;
+}
+
+#form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#legend {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bb input[type="text"],
+.bb input[type="email"],
+.bb input[type="submit"],
+.bb select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
