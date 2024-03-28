@@ -4,38 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form</title>
-   <link href="../style.css" rel="stylesheet" />
-    
+    <link href="../style.css" rel="stylesheet" />
 </head>
-<body> <header>
-    <a href="../index.html">Home</a>
- 
-    <form id="form">
-        <fieldset id="fieldset">
-            <legend id="legend">Get In Touch</legend>
+<body class="body"> <a href="../index.html">Home</a><br><br>
+    
+   
+    <header>
+    <form >
+        <fieldset class="form">
+
+            <legend id="legend"> Get In Touch</legend>
             <br><br>
-            <div class="bb">
-            First Name: <input type="text" id="firstName" name="firstName" value="First Name">
-            Last Name: <input type="text" id="lastName" name="lastName" value="Last Name">
-            <br><br>
-            Email: <input type="email" id="email" name="email" value="name@example.com" required>
-            <br><br>
-            Phone: <select id="countryCode" name="countryCode">
+
+            
+            First Name: <input type="text" id="firstName" name="firstName" class="text"><br>
+            Last Name: <input type="text" id="lastName" name="lastName" class="text"> <br><br>
+
+            Email: <input type="email" id="email" name="email"  required class="text"> <br><br>
+            
+            Phone: <select id="countryCode" name="countryCode" class="text">
                 <option value="+92" selected>Pakistan (+92)</option>
                 <option value="+91">India (+91)</option>
                 <option value="+86">China (+86)</option>
             </select>
-            <input type="text" id="phoneNumber" name="phoneNumber"><br><br>
-            <div id="textarea">
-           Message:<br> <textarea name="Comments" cols="20" rows="4">Enter Your Message</textarea></div>
+
+            <input type="text" id="phoneNumber" name="phoneNumber" class="text"><br><br>
+            
+           Message:<br> <textarea name="Comments" cols="20" rows="4" class="text">Enter Your Message</textarea>
             <br><br>
-            <input type="submit" value="Send"></div>
-        </fieldset></header>
+            <input type="submit" value="Send" class="submit">
+            </fieldset></header>
+
         <footer>
         <h1>Location</h1>
-        <center>
+        
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6610.704510748167!2d71.57866354360667!3d34.060483255281184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d93de4500cfc0f%3A0x9af965d9e367ba13!2sBakhshi%20Pull%2C%20Peshawar%2C%20Khyber%20Pakhtunkhwa%2C%20Pakistan!5e0!3m2!1sen!2s!4v1710426677342!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </center>
-    </form></footer>
+
+    </footer>
+</form>
+
 </body>
 </html>

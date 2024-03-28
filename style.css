@@ -1,65 +1,75 @@
     /* Index page Styling */
-body{
+.body{
 background-color: #d7ccc7;
 }
-table,tr,td{
-    border: 1px solid;
-    border-collapse:collapse;
-    width: 25%;
-}
-th {
+.tab{
+    border: 1px solid black;
+    width: 20%;
+
+   }
+.th {
 background-color: antiquewhite;
 border: 2px solid black;
-width: 20%;
+font-style: italic;
+padding: 10px;
+
+
 }
 .Intro{
-    color:rgb(53, 107, 115);
+    color:rgb(66, 8, 201);
 }
 
 /* Project page Styling */
-.project{
-    body{
+    #pbody{
         background-color: #d7ccc7;
         }
     #a{
-        color:rgb(150, 49, 49);
+        color:rgb(47, 4, 239);
+    
+    }
+    #p{
+        color: rgb(20, 20, 20);
+    }
+/* Contact styling */
+.body{
+    background-color:#d7ccc7 ;
+}
+    .form{
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #89bcb1;
+        border-radius: 8px;
+    }
+    #legend{
+        font-weight: bold;
+            text-align: center;
+        
+        font-style: oblique;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    .text{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #000000;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    .submit{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #000000;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-weight: bold;
+        font-size: large;
     }
     
-/* contact page styling */
-#fieldset {
-    margin: 0 auto;
-    width: 50%;
-    background-color: #a8c2a8;
-}
-
-#textarea {
-    width: 50%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    height: 50%;
-}
-
-#form {
-    width: 50%;
-    margin: 0 auto;
-}
-
-#legend {
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.bb input[type="text"],
-.bb input[type="email"],
-.bb input[type="submit"],
-.bb select {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-}
-
+    .sbody{
+        background-color: #d7ccc7;
+        #s{
+            color: #1225f2;
+        }
+    }
