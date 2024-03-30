@@ -2,6 +2,16 @@
 .body{
 background-color: #d7ccc7;
 }
+.links{
+    background-color: #78efff;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#stu{
+    color:#1225f2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .tab{
     border: 1px solid black;
     width: 20%;
@@ -16,7 +26,7 @@ padding: 10px;
 
 }
 .Intro{
-    color:rgb(66, 8, 201);
+    color:#1225f2;
 }
 
 /* Project page Styling */
